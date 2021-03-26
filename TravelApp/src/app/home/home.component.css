@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+    /* background-image: url('https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    opacity: 0.9;
+    }
+    
+.heading_wrapper {
+    height: 10vw;
+    background-color: rgba(255, 255, 255, 0.666);
+    color: rgb(20, 121, 151);
+    border: black solid 10px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    }; 
+
+
+

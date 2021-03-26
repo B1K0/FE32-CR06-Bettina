@@ -1,0 +1,15 @@
+<div class="row mt-4">
+    <h2 class="text-center ml-5 animate_animate animate__heartBeat">What's on our mind</h2>
+<div *ngFor="let blog of blogTopics" class="col-12 col-md-6 col-lg-4">
+    <div class="card mb-3">
+        <div>
+            <div class="card-body">
+    <h5 class="card-title">{{blog.topic}}</h5>
+    <p class="card-text">{{blog.text}}</p>
+    <img class="card-img-top border border-bottom-0 border-primary" src="{{blog.img}}" alt="Travel Images">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

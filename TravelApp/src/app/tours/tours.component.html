@@ -1,0 +1,16 @@
+<div class="row mt-4">
+    <h2 class="text-center ml-5 animate_animate animate__heartBeat">Adventures Awaits!</h2>
+<div *ngFor="let tour of tourTopics" class="col-12 col-md-6 col-lg-4">
+    <div class="card mb-3">
+        <div>
+            <div class="card-body center-block border border-top-0 border-bottom-0 border-text-dark bg-warning">
+    <h5 class="card-title">{{tour.destination}}</h5>
+    <p class="card-text">{{tour.description}}</p>
+    <p class="card-text">Starting at: {{tour.start}}</p>
+    <p class="card-text">Duration: {{tour.duration}}</p>
+    <p class="card-text">Price: {{tour.price}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
