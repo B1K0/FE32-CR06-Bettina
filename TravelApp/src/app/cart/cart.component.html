@@ -1,0 +1,24 @@
+<div class="container">
+  <h3>Your Cart</h3>
+  <h4 id="total"></h4>
+  <h4 id="discount"></h4>
+
+
+  <!-- Container for displaying items Array  -->
+  <div class="container row">
+    <!-- loop for all items in array  -->
+    <div class="card col-3 m-2" style="width: 18rem" *ngFor="let item of items">
+        <div class="card-body">
+            <h5 class="card-title">{{ item.destination }}</h5>
+
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Date & Time: {{ item.start }}</li>
+            <li class="list-group-item">Duration: {{ item.duration }}</li>
+            <li class="list-group-item">Price: {{ item.price }} €</li>
+          </ul>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success mt-2 mb-2">Buy Now</button>
+    </div>
+  

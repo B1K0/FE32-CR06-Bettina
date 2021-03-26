@@ -2,12 +2,16 @@ h2 {
     text-align: center;
     padding-top: 3vh;
     padding-bottom: 5vh;
-}
-
-.card-title {
+  }
+  
+  .card-title {
     text-align: center;
-}
-
-.card-text {
+  }
+  
+  .card-text {
     text-align: center;
-}
+  }
+  
+  .btn_wrapper {
+    text-align: center;
+  }
