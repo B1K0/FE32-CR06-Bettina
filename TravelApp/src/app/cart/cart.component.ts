@@ -12,9 +12,7 @@ export class CartComponent implements DoCheck {
   sum;
   paySum;
 
-  constructor(
-    private cartService: CartService
-  ) { }
+  constructor(private cartService: CartService) { }
 
 
 // Function for getting items array and creating sum and displaying
@@ -41,5 +39,12 @@ ngDoCheck() {
     document.getElementById('total').innerHTML = 'Total: ' + paySum + '€';
     document.getElementById('discount').innerHTML = 'Discount: -20%';
   }
+}
+onSubmit(items) {
+  // on order Submit console warn, window alert, clearing array and clearing content of discount//
+  console.warn('Your order has been submitted');
+  window.alert('Thank you for your purchase!');
+  this.items = this.cartService.clearCart();
+  document.getElementById('discount').innerHTML = '';
 }
 }

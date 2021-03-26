@@ -18,7 +18,7 @@ tours = tourTopics;
 
   // add to Cart function from cart.service & alert 
   addToCart(tour) {
-    window.alert('Yay - the tour has been added to the cart!');
+    window.alert('Yay - the tour has been added to your cart!');
     this.cartService.addToCart(tour);
   }
   ngOnInit(): void {

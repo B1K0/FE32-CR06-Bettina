@@ -2,6 +2,12 @@
     <h2 class="text-center ml-5 animate__animated animate__rubberBand">Adventures Awaits!</h2>
 <div *ngFor="let tour of tours" class="col-12 col-md-6 col-lg-4">
     <div class="card mb-3">
+        <img
+        class="card-img-top"
+        height="300"
+        src="{{ tour.img }}"
+        alt="Card image cap"
+      />
         <div>
             <div class="card-body center-block border border-top-0 border-bottom-0 border-text-dark bg-warning">
     <h4 class="card-title">{{tour.destination}}</h4>
@@ -9,7 +15,7 @@
     <p class="card-text"><strong class="text-muted">Starting at: {{tour.start}}
     <p class="card-text">Duration: {{tour.duration}}</p></strong><br>
     <a class="btn btn-success btn-lg p-2" (click)="addToCart(tour)"role="button"
-                >Join us for {{ tour.price }} €</a>
+                >Join us for only {{ tour.price }} €</a>
                 </div>
             </div>
         </div>
