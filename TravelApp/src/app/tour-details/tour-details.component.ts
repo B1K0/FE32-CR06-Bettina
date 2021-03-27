@@ -16,7 +16,7 @@ tours = tourTopics;
     private cartService: CartService
   ) { }
 
-  // add to Cart function from cart.service & alert 
+  // imported addToCart function from cart.services.ts & added alert
   addToCart(tour) {
     window.alert('Yay - the tour has been added to your cart!');
     this.cartService.addToCart(tour);
