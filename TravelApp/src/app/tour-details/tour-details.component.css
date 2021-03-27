@@ -15,3 +15,9 @@ h2 {
   .btn_wrapper {
     text-align: center;
   }
+
+  img{
+    min-height: 10vh;
+    height: 30vh;
+    object-fit: cover;
+ }

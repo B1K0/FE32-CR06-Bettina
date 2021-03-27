@@ -12,7 +12,7 @@ const routes: Routes = [
 }, {
   path: "tour-details", component: TourDetailsComponent
 }, {
- path: "cart", component: CartComponent
+  path: "cart", component: CartComponent
 }
 ];
 
