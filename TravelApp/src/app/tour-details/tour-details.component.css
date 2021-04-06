@@ -1,7 +1,16 @@
+* {
+  font-family: 'Arvo', serif;
+}
+
 h2 {
     text-align: center;
     padding-top: 3vh;
     padding-bottom: 5vh;
+  }
+
+  #wrapper {
+    padding-left: 3%;
+    padding-right: 3%;
   }
   
   .card-title {

@@ -1,0 +1,39 @@
+* {
+    font-family: 'Arvo', serif;
+}
+
+/* MQ */
+
+@media screen (max-width: 576px) {
+    .row {
+        margin-left: 0;
+    }
+
+    #wrapper {
+        margin-left: 20%;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .row {
+        margin-left: 20%;
+    }
+
+    #wrapper {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .wrapper {
+        height: 40vh;
+        width: 60vw;
+        padding-left: 35%;
+    }
+
+    .heading_wrapper {
+        height: 60vh;
+        width: 150vw;
+    }
+}

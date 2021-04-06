@@ -15,13 +15,13 @@ export class CartComponent implements DoCheck {
   constructor(private cartService: CartService) { }
 
 
-// Tried to be brave and create a function to create sum and dispay total sum & discount - it does work, but not only kinda :/ 
+// Function to create sum and dispay total sum & discount
 
 ngDoCheck() {
   this.items = this.cartService.getItems();
   var sum = 0;
   this.items.forEach(function (tour){
-    sum = sum + tour.price;
+    sum = sum + parseInt(tour.price);
   });
   var paySum = 0;
   if (sum < 200) {
