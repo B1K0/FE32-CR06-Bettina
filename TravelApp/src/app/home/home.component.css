@@ -1,5 +1,5 @@
 * {
-    font-family: 'Arvo', serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .wrapper {
@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     height: 30vh;
-    opacity: 0.8;
+    opacity: 0.6;
     }
     
 .heading_wrapper {
@@ -48,7 +48,7 @@ h2 {
     padding: 2px;
     margin: auto;
     margin-bottom: 5vh;
-    font-weight: 900;
+    font-weight: bolder;
     word-spacing: 0.5rem;
     text-shadow: darkblue;
     padding-bottom: 5%;
@@ -74,7 +74,13 @@ h2 {
 }
 
 .serviceName {
-    font-weight: bold;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.serviceDescription {
+    font-weight: 300;
+    font-style: italic;
 }
 
 .navSpace {
