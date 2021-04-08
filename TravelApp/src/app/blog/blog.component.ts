@@ -13,7 +13,7 @@ export class BlogComponent implements OnInit {
     {
       topic: "Sustainable Travel",
       text: "This is not only important for the health of our planet, but it’s also crucial for the well-being of the people and communities we visit and love around the world. And, it’s a path to deeper connections and having even better travel experiences.",
-      img: "../assets/img/sustain.jpeg"
+      img: "./assets/img/sustain.jpeg"
       
     }, {
       topic: "Foodie Tours",
